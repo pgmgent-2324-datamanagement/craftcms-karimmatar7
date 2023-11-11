@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: pages
+name: Pages
+propagationMethod: all
+siteSettings:
+  c4379a72-a17c-497e-b548-3c8b6ce10bf7: # Karim Matar Webstore
+    enabledByDefault: true
+    hasUrls: true
+    template: pages/_entry
+    uriFormat: 'pages/{slug}'
+structure:
+  maxLevels: null
+  uid: ac370ac5-500f-43aa-8c22-9bd39c2fd017
+type: structure

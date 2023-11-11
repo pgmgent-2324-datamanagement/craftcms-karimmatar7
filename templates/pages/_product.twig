@@ -1,0 +1,48 @@
+{% extends "layouts/base.twig" %}
+
+{% block body %}
+<div class="crumbs" style="padding-bottom: 2rem;">
+    <a class="text-decoration-none text-dark" href="{{ siteUrl }}">{{ siteName }}</a> &gt;
+    <a class="text-decoration-none text-dark" href="/categories">Categories</a> &gt;
+
+    {% for page in entry.getAncestors() %}
+        <a class="text-decoration-none" href="{{ page.url }}">{{ page.title }}</a> &gt;
+    {% endfor %}
+
+    {% set categories = craft.categories.group('productCategories').relatedTo(entry).all() %}
+
+    {% for category in categories %}
+        <a class="text-decoration-none text-dark" href="{{ category.url }}">{{ category.title }}</a> &gt;
+    {% endfor %}
+
+    {{ entry.title }}
+</div>
+
+
+
+<div class="d-flex gap-4">
+    {%if entry.image|length %}
+    <img style="width: 35rem; height: 30rem; object-fit: contain;" class="border" src="{{ entry.image[0].url }}" alt="">
+    {% endif %}
+    <div class="d-flex flex-column col-5">
+        <h1>{{ entry.title }}</h1>
+        <p>{{ entry.body }}</p>
+        <div class="d-flex">
+            <strong>Rating:</strong>
+            {% for i in 1..5 %}
+                {% if i <= entry.rating|number %}
+                    <span class="star selected" style="color: yellow;">&#9733;</span>
+                {% else %}
+                    <span class="star" style="color: gray;">&#9733;</span>
+                {% endif %}
+            {% endfor %}
+        </div>
+                <strong>Price:</strong><p>&euro;{{ entry.price }}</p>
+        <div class="d-flex gap-2">
+            <button type="button" class="btn btn-primary col-3">Add to cart</button>
+            <button type="button" class="btn btn-success col-3">Buy</button>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

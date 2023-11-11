@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: product
+name: Product
+propagationMethod: all
+siteSettings:
+  c4379a72-a17c-497e-b548-3c8b6ce10bf7: # Karim Matar Webstore
+    enabledByDefault: true
+    hasUrls: true
+    template: pages/_product.twig
+    uriFormat: 'product/{slug}'
+type: channel

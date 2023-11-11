@@ -1,0 +1,83 @@
+dateModified: 1698603308
+email:
+  fromEmail: karim.matar@student.arteveldehs.be
+  fromName: 'Karim Matar Webstore'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  assets:
+    hasUrls: true
+    name: assets
+    settings:
+      path: '@webroot/assets'
+    type: craft\fs\Local
+    url: '@web/assets'
+meta:
+  __names__:
+    1c04db77-1649-4c67-90a7-cc5ad88002ba: Product # Product
+    2c3cf118-1d0e-49ed-8501-035517bcdc3a: images # images
+    3fd01f77-7c87-47f7-ac36-94628bab8e91: navname # navname
+    4f2f0f30-956f-4af5-a4e3-05cda66a356c: shape # shape
+    8a5a043c-5673-4141-95ba-4e0c5481febd: body # body
+    9d38ae0c-fc56-4900-bfe1-bb7c04fe33d3: navigation # navigation
+    66a50116-1564-4bc7-9a9b-c617b443ba77: rating # rating
+    5793ed2d-1dd5-4bd6-b70c-1c56d2460493: 'Karim Matar Webstore' # Karim Matar Webstore
+    7958a590-988a-4dd3-b336-2d63da050ee3: Default # Default
+    88906281-247e-498f-8e15-a54e9ef1dc5e: Category # Category
+    b5714f02-37b0-4105-8e73-8230f809a08a: Navigation # Navigation
+    b225808e-ba87-45b1-b29e-e5fff13cd7e7: Image # Image
+    bac6cfb4-ccb5-462d-b720-9bd3e88a14bc: Simple # Simple
+    bac33fd7-ecfc-4b9a-a31c-a66b899ea138: navlink # navlink
+    c453e827-d8d0-4bed-847d-05a28ea91f8d: Default # Default
+    c4379a72-a17c-497e-b548-3c8b6ce10bf7: 'Karim Matar Webstore' # Karim Matar Webstore
+    d065c9b6-646f-4d79-a80f-69ee321e38e6: Common # Common
+    d317ddf8-29cb-4593-b8b6-f1b62ae957b2: Pages # Pages
+    e2702452-ff79-44e2-8589-26f911a1b116: Price # Price
+    f0179ba9-b210-44a5-94ad-aec8a17fb158: 'Product Categories' # Product Categories
+    fe4a263e-3f8a-458d-8db1-e0951c3f6c71: navigation # navigation
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      allowAttachments: '1'
+      allowedMessageFields: null
+      prependSender: 'On behalf of'
+      prependSubject: 'New message from Karim Matar Webstore'
+      successFlashMessage: 'Your message has been sent.'
+      toEmail: karim.matar@student.arteveldehs.be
+  quick-field:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  wheelform:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+    settings:
+      cp_label: Forms
+      disabled_fields: ''
+      from_email: karim.matar@student.arteveldehs.be
+      from_name: ''
+      recaptcha_min_score: '0.5'
+      recaptcha_public: ''
+      recaptcha_secret: ''
+      recaptcha_version: '3'
+      success_message: 'Thank You! we will review your submission shortly.'
+      volume_id: '1'
+system:
+  edition: solo
+  live: true
+  name: 'Karim Matar Webstore'
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

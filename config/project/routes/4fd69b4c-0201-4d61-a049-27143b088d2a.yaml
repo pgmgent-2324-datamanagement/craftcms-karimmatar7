@@ -1,0 +1,6 @@
+siteUid: null
+sortOrder: 1
+template: category-list.twig
+uriParts:
+  - categories
+uriPattern: categories

@@ -1,1 +1,15 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12841835&assignment_repo_type=AssignmentRepo)
+## Karim Webstore
+
+This is a Craft CMS project Made by Karim Matar
+
+## Who am I?
+A student at Artevelde university for applied sciences in Belgium, currently studying programming for graduate degree.
+
+## Installation
+- Clone this repository into your local development environment.
+- Run the command: ddev config then click enter multiple times until it says it's complete
+- Run the command ddev start or ddev launch
+  
+## Accessing the site
+- Run the command ddev describe
+- For the backoffice login data use admin as a username and the password: samer327

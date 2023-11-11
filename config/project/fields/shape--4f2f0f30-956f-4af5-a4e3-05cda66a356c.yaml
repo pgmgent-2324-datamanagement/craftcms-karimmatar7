@@ -1,0 +1,46 @@
+columnSuffix: ojeccuwi
+contentColumnType: string(7)
+fieldGroup: d065c9b6-646f-4d79-a80f-69ee321e38e6 # Common
+handle: shape
+instructions: null
+name: shape
+searchable: false
+settings:
+  columnType: null
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - default
+        -
+          - value
+          - default
+        -
+          - default
+          - '1'
+    -
+      __assoc__:
+        -
+          - label
+          - contact
+        -
+          - value
+          - contact
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - thanks
+        -
+          - value
+          - thanks
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

@@ -1,0 +1,82 @@
+fieldLayouts:
+  73cd2c5a-0a47-40ca-8459-79e3b3456d15:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: f9b69dc6-859e-4b87-bef1-1cd30e3a8edb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8a5a043c-5673-4141-95ba-4e0c5481febd # body
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a1b20f8f-d9dd-4fcc-b8d3-b08abf9a247d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b225808e-ba87-45b1-b29e-e5fff13cd7e7 # Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 458154ab-27f4-496e-b52f-efb589543c1e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4f2f0f30-956f-4af5-a4e3-05cda66a356c # shape
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 86baae64-de54-4999-87c3-223e3bbb5697
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 0aed763d-d10a-42a6-aea0-dabf608e617e
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: d317ddf8-29cb-4593-b8b6-f1b62ae957b2 # Pages
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

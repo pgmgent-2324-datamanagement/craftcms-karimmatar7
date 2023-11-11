@@ -1,0 +1,23 @@
+columnSuffix: bfcjeggh
+contentColumnType: text
+fieldGroup: d065c9b6-646f-4d79-a80f-69ee321e38e6 # Common
+handle: body
+instructions: null
+name: body
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: '*'
+  ckeConfig: bac6cfb4-ccb5-462d-b720-9bd3e88a14bc # Simple
+  columnType: text
+  defaultTransform: null
+  enableSourceEditingForNonAdmins: false
+  purifierConfig: null
+  purifyHtml: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  showWordCount: false
+  wordLimit: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\ckeditor\Field
