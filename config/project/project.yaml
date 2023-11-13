@@ -1,8 +1,16 @@
-dateModified: 1698603308
+dateModified: 1699890133
 email:
   fromEmail: karim.matar@student.arteveldehs.be
   fromName: 'Karim Matar Webstore'
-  transportType: craft\mail\transportadapters\Sendmail
+  replyToEmail: null
+  template: null
+  transportSettings:
+    host: $MAILHOG_SMTP_HOSTNAME
+    password: ''
+    port: $MAILHOG_SMTP_PORT
+    useAuthentication: '0'
+    username: ''
+  transportType: craft\mail\transportadapters\Smtp
 fs:
   assets:
     hasUrls: true

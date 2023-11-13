@@ -1,0 +1,14 @@
+.wf-group {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+
+input:focus{
+    outline: 0;
+}
